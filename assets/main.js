@@ -6,5 +6,5 @@ let greet = document.getElementById("greet");
 button.addEventListener("click", greetingUser);
 
 function greetingUser() {
-  greet.textContent = `Hello, ${input.value} welcome to the bootcamp!`
+  greet.textContent = `Hello ${input.value}, welcome to the bootcamp!`
 }
